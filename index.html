@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/cards.css" />
+    <script src="src/components/CardComponent.js" defer></script>
+
+    <title>Blog aleatório com Web Components</title>
+  </head>
+  <body>
+    <header></header>
+    <section>
+      <div class="container">
+        <h1>BLOG ALEATÓRIO COM WEB COMPONENTS</h1>
+        <hr>
+        <card-component
+          title="Palmeiras esta quase fechando a contratação de Caio Paulista"
+          content="Conforme André, o jogador foi contratado no começo de 2023, 
+        pois, no momento, o São Paulo precisava com urgência de um lateral-esquerdo."
+          image="assets/img/caio.jpg"
+        >
+        </card-component>
+        <card-component
+          title="FPF desmembra tabela do Campeonato Paulista de 2024; veja jogos do Palmeiras"
+          content="A Federação Paulista de Futebol divulgou, nesta terça-feira (26), 
+          a tabela detalhada com todos os jogos do Campeonato Paulista de 2024. 
+          O Palmeiras tem estreia marcada para o dia 21 de janeiro, às 16 horas, contra o Grêmio Novorizontino."
+          image="assets/img/fpf.png"
+        >
+        </card-component>
+      </div>
+    </section>
+    <footer></footer>
+  </body>
+</html>
